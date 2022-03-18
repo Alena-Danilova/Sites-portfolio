@@ -1,0 +1,1378 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
+    <link rel="stylesheet" href="bootstrap-grid.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="bg-white py-3">
+		<div class="container">
+
+
+			<div class="d-flex justify-content-center justify-content-md-start">
+				<div class="d-md-flex align-items-md-center text-center">
+
+					<!-- Logo -->
+					<a class="navbar-brand m-0 p-0 me-md-5" href="#">
+						<img class="mb-4 m-md-0" src="logo.png" alt="" width="90" height="90">
+					</a>
+		
+					<!-- links -->
+					<div class="d-md-flex ">
+						<li class="li-item lh-lg"><a onclick="OpenMenu()" href="#" class="link-dark rounded fw-bolder mx-2">Программирование</a></li>
+						<li class="li-item lh-lg"><a onclick="OpenMenu()" href="#" class="link-dark rounded fw-bolder mx-2">Маркетинг</a></li>
+						<li class="li-item lh-lg"><a onclick="OpenMenu()" href="#" class="link-dark rounded fw-bolder mx-2">Отзывы о школах</a></li>
+						<li class="li-item lh-lg"><a onclick="OpenMenu()" href="#" class="link-dark rounded fw-bolder mx-2">Акции школ</a></li>
+					</div>
+	
+				</div>
+			</div>
+
+		</div>
+	</nav>
+
+	<div id="newMenuBlock" class="new-menu-block px-3 py-4 p-md-5 scrolling">
+
+		<div class="d-flex justify-content-end">
+			<a onclick="closeMenu()" href="#" class="link-dark rounded menu-link">
+				<svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+					<path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+				</svg>
+			</a>
+		</div>
+
+		
+
+		<div class="pc">
+			
+
+			<!-- Block 1 -->
+			<div class="d-flex mb-3">
+
+
+				<li class="li-item lh-lg w-25">
+					<a href="#" class="link-dark rounded fw-bolder mx-2 text-change"
+					data-bs-toggle="collapse" data-bs-target="#collapseExample-head-pc-0" aria-expanded="false" aria-controls="collapseExample" >Отзывы о школах</a>
+				</li>
+
+
+				<div class="collapse w-75" id="collapseExample-head-pc-0">
+
+					<div class="d-flex flex-wrap">
+						<div class="mx-3">
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Ссылка #1</a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Ссылка #2</a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Ссылка #3</a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Ссылка #4</a></li>
+						</div>
+			
+						<div class="mx-3">
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Ссылка #5</a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Ссылка #6</a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Ссылка #7</a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Ссылка #8</a></li>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<!-- Block 2 -->
+			<div class="d-flex mb-3">
+
+
+				<li class="li-item lh-lg w-25">
+					<a href="#" class="link-dark rounded fw-bolder mx-2 text-change"
+					data-bs-toggle="collapse" data-bs-target="#collapseExample-head-pc-1" aria-expanded="false" aria-controls="collapseExample" >Программирование </a>
+				</li>
+
+
+				<div class="collapse w-75" id="collapseExample-head-pc-1">
+
+					<div class="d-flex flex-wrap">
+
+						<!-- Container for links -->
+						<div class="mx-3">
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Все курсы по программированию</a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Python-разработка</a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Web-разработка</a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">JavaScript-разработка</a></li>
+
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Мобильная разработка </a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Управление разработкой и IT </a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Системное администрирование</a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Разработка игр </a></li>
+
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Java-разработка </a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Создание сайтов </a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">QA-тестирование </a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">DevOps </a></li>
+
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Frontend-разработка </a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Android-разработка </a></li>
+
+						</div>
+			
+						<!-- Container for links -->
+						<div class="mx-3">
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">PHP-разработка </a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Разработка игр на Unity </a></li>
+
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Разработка на C# </a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Верстка на HTML/CSS </a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">IOS-разработка </a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Разработка на C++ </a></li>
+
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Разработка игр на Unreal Engine </a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Информационная безопасность </a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Разработка на Kotlin </a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Разработка на Swift </a></li>
+
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Golang-разработка </a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">VR/AR разработка </a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">1C-разработка </a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Фреймворк Laravel </a></li>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<!-- Block 3 -->
+			<div class="d-flex mb-3">
+
+
+				<li class="li-item lh-lg w-25">
+					<a href="#" class="link-dark rounded fw-bolder mx-2 text-change"
+					data-bs-toggle="collapse" data-bs-target="#collapseExample-head-pc-2" aria-expanded="false" aria-controls="collapseExample" >Маркетинг</a>
+				</li>
+
+
+				<div class="collapse w-75" id="collapseExample-head-pc-2">
+
+					<div class="d-flex flex-wrap">
+						<div class="mx-3">
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Ссылка #1</a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Ссылка #2</a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Ссылка #3</a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Ссылка #4</a></li>
+						</div>
+			
+						<div class="mx-3">
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Ссылка #5</a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Ссылка #6</a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Ссылка #7</a></li>
+							<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Ссылка #8</a></li>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+
+		<!-- / PC -->
+		</div>
+
+
+
+		<div class="mobile">
+			
+
+			<!-- Link #1 -->
+			<li class="li-item lh-lg">
+				<a href="#" class="link-dark rounded fw-bolder mx-2 text-change"
+				data-bs-toggle="collapse" data-bs-target="#collapseExample-head-mobile-0" aria-expanded="false" aria-controls="collapseExample" >Отзывы о школах
+			
+			
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+						<path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+					</svg>
+			
+				</a>
+
+			</li>
+
+
+			<!-- Resuld button 1 -->
+			<div class="collapse py-2" id="collapseExample-head-mobile-0">
+
+				<div class="d-md-flex ">
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Ссылка #1</a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Ссылка #2</a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Ссылка #3</a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Ссылка #4</a></li>
+				</div>
+
+			</div>
+
+
+			<!-- ------------------------------------------------------------------------------ -->
+
+
+			<!-- Link #2 -->
+			<li class="li-item lh-lg">
+				<a href="#" class="link-dark rounded fw-bolder mx-2 text-change"
+				data-bs-toggle="collapse" data-bs-target="#collapseExample-head-mobile-1" aria-expanded="false" aria-controls="collapseExample" >Программирование 
+			
+			
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+						<path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+					</svg>
+			
+				</a>
+
+			</li>
+
+
+			<!-- Resuld button 2 -->
+			<div class="collapse py-2" id="collapseExample-head-mobile-1">
+
+				<div class="d-md-flex">
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Все курсы по программированию</a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Python-разработка</a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Web-разработка</a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">JavaScript-разработка</a></li>
+
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Мобильная разработка </a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Управление разработкой и IT </a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Системное администрирование</a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Разработка игр </a></li>
+
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Java-разработка </a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Создание сайтов </a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">QA-тестирование </a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">DevOps </a></li>
+
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Frontend-разработка </a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Android-разработка </a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">PHP-разработка </a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Разработка игр на Unity </a></li>
+
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Разработка на C# </a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Верстка на HTML/CSS </a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">IOS-разработка </a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Разработка на C++ </a></li>
+
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Разработка игр на Unreal Engine </a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Информационная безопасность </a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Разработка на Kotlin </a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Разработка на Swift </a></li>
+
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Golang-разработка </a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">VR/AR разработка </a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">1C-разработка </a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Фреймворк Laravel </a></li>
+
+				</div>
+
+			</div>
+
+
+
+			<!-- ------------------------------------------------------------------------------ -->
+
+
+
+			<!-- Link #3 -->
+			<li class="li-item lh-lg">
+				<a href="#" class="link-dark rounded fw-bolder mx-2 text-change"
+				data-bs-toggle="collapse" data-bs-target="#collapseExample-head-mobile-2" aria-expanded="false" aria-controls="collapseExample" >Отзывы о школах
+			
+			
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+						<path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+					</svg>
+			
+				</a>
+
+			</li>
+
+
+			<!-- Resuld button 3 -->
+			<div class="collapse py-2" id="collapseExample-head-mobile-2">
+
+				<div class="d-md-flex ">
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Ссылка #1</a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Ссылка #2</a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Ссылка #3</a></li>
+					<li class="li-item lh-lg"><a href="#" class="link-dark rounded mx-2">Ссылка #4</a></li>
+				</div>
+
+			</div>
+
+			<!-- / Mobile -->
+		</div>
+
+
+		<!-- / newMenuBlock -->
+	</div>
+
+    <div class="container w-92" style="min-height: 280px; padding-top: 5%;">
+        <div class="text-blue fw-bolder fz-64">
+            SkilLFactory
+        </div>
+
+        <div class="row my-5 d-flex flex-wrap align-items-center justify-content-between ">
+
+            <div class="col-xxl-9 d-flex flex-wrap align-items-center justify-content-between lh-base">
+                <div class="d-flex align-items-center me-3 lh-lg-2-3">
+                    <div class="fz-25">
+                        4.0
+                    </div>
+                    <div class="ml-15">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path class="text-grey" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                    </div>
+                </div>
+    
+                <!-- mx-xl-5 -->
+                <div class="lh-lg-2-3 fz-25">
+                    76 отзывов
+                </div>
+    
+                <div class="d-flex me-3 lh-lg-2-3">
+                    <div class="d-flex align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
+                            <path class="text-green" d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path class="text-green" d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+                          </svg>
+        
+                          <div class="text-green ml-10">
+                            102
+                          </div>
+                    </div>
+        
+                    <div class="ml-15 d-flex align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-emoji-frown" viewBox="0 0 16 16">
+                            <path class="text-red" d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path class="text-red" d="M4.285 12.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 10.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 9.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+                          </svg>
+        
+                          <div class="text-red ml-10">
+                            54
+                          </div>
+                    </div>
+                </div>
+
+                <a href="https://skillbox.ru/">
+                    <!-- mx-xl-5 -->
+                    <div class=" fz-25 text-blue lh-lg-2-3">
+                        skillbox.ru
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-xxl-3 d-flex justify-content-end">
+                <button type="button" class="btn btn-orange mt-xxl-0 mt-xl-4 mt-lg-4 mt-md-4 mt-sm-4 mt-3 fw-bolder">Оставить отзыв</button>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="container w-92 mt-3 mb-4" style="min-height: auto;">
+        <div class="row">
+
+            <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-12">
+
+                <div class="card py-4 px-2 mb-3 " style="width: 100%;">
+                    <div class="card-body ">
+
+                      <div class="d-flex mb-2">
+                        <h6 class="card-title fw-bolder">Сайт школы:</h6>
+                        <a href="https://skillbox.ru/" class="text-blue" style="text-decoration: underline;">
+                            <h6 class="card-title fw-bolder ms-2 ">skillbox.ru</h6>
+                        </a>
+                      </div>
+                      <p class="card-text lh-base text-blue">Вы находитесь на сайте-агрегаторе всех онлайн-курсов по IT и digital</p>
+
+                    <div class="my-4">
+
+                        <div class="d-flex justify-content-between mb-3">
+
+                            <div>
+                                <h6 class="card-title fw-bolder">GeekBrains</h6>
+                                <p class="card-text text-blue">300 отзывов</p>
+                            </div>
+    
+                            <div class="d-flex flex-wrap align-items-center ">
+                                <div class="d-flex align-items-center">
+                                    <div class="">
+                                        4.1
+                                    </div>
+                                    <div class="ml-15">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-grey" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                    
+                            </div>
+    
+                        </div>
+    
+                        <div class="d-flex justify-content-between mb-3">
+    
+                            <div>
+                                <h6 class="card-title fw-bolder">Нетология</h6>
+                                <p class="card-text text-blue">102 отзывов</p>
+                            </div>
+    
+                            <div class="d-flex flex-wrap align-items-center ">
+                                <div class="d-flex align-items-center">
+                                    <div class="">
+                                        4.3
+                                    </div>
+                                    <div class="ml-15">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-grey" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                    
+                            </div>
+                            
+                        </div>
+
+                        <div class="d-flex justify-content-between mb-3">
+    
+                            <div>
+                                <h6 class="card-title fw-bolder">SkillFactory</h6>
+                                <p class="card-text text-blue">85 отзывов</p>
+                            </div>
+    
+                            <div class="d-flex flex-wrap align-items-center ">
+                                <div class="d-flex align-items-center">
+                                    <div class="">
+                                        4.1
+                                    </div>
+                                    <div class="ml-15">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-grey" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                    
+                            </div>
+                            
+                        </div>
+
+                        <div class="d-flex justify-content-between mb-3">
+    
+                            <div>
+                                <h6 class="card-title fw-bolder">Яндекс Практикум</h6>
+                                <p class="card-text text-blue">38 отзывов</p>
+                            </div>
+    
+                            <div class="d-flex flex-wrap align-items-center ">
+                                <div class="d-flex align-items-center">
+                                    <div class="">
+                                        2.7
+                                    </div>
+                                    <div class="ml-15">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-red" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-red" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-grey" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-grey" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-grey" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                    
+                            </div>
+                            
+                        </div>
+
+                        <!-- ----------------------------- -->
+
+                        <div class="d-flex justify-content-between mb-3">
+    
+                            <div>
+                                <h6 class="card-title fw-bolder">IMBA</h6>
+                                <p class="card-text text-blue">31 отзывов</p>
+                            </div>
+    
+                            <div class="d-flex flex-wrap align-items-center ">
+                                <div class="d-flex align-items-center">
+                                    <div class="">
+                                        4.1
+                                    </div>
+                                    <div class="ml-15">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-grey" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                    
+                            </div>
+                            
+                        </div>
+
+                        <div class="d-flex justify-content-between mb-3">
+    
+                            <div>
+                                <h6 class="card-title fw-bolder">Convert Monster</h6>
+                                <p class="card-text text-blue">30 отзывов</p>
+                            </div>
+    
+                            <div class="d-flex flex-wrap align-items-center ">
+                                <div class="d-flex align-items-center">
+                                    <div class="">
+                                        4.2
+                                    </div>
+                                    <div class="ml-15">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-grey" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                    
+                            </div>
+                            
+                        </div>
+
+                        <div class="d-flex justify-content-between mb-3">
+    
+                            <div>
+                                <h6 class="card-title fw-bolder">HTML Academy</h6>
+                                <p class="card-text text-blue">30 отзывов</p>
+                            </div>
+    
+                            <div class="d-flex flex-wrap align-items-center ">
+                                <div class="d-flex align-items-center">
+                                    <div class="">
+                                        3.3
+                                    </div>
+                                    <div class="ml-15">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill  wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-yellow" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-yellow" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-yellow" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-grey" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-grey" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                    
+                            </div>
+                            
+                        </div>
+
+                        <div class="d-flex justify-content-between mb-3">
+    
+                            <div>
+                                <h6 class="card-title fw-bolder">QMARKETING</h6>
+                                <p class="card-text text-blue">22 отзывов</p>
+                            </div>
+    
+                            <div class="d-flex flex-wrap align-items-center ">
+                                <div class="d-flex align-items-center">
+                                    <div class="">
+                                        3.7
+                                    </div>
+                                    <div class="ml-15">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-yellow" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-yellow" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-yellow" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-grey" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill wh-ic" viewBox="0 0 16 16">
+                                            <path class="text-grey" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                    
+                            </div>
+                            
+                        </div>
+
+
+
+
+                    </div>
+
+ 
+
+
+                      
+                      <a href="#" class="card-link text-blue" style="text-decoration: underline;">Посмотреть список всех школ</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-12">
+                
+                <div class="mb-3">
+                    <div class="dropdown">
+                        <a class="btn dropdown-toggle text-black" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            Сортировать
+                        </a>
+                      
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item mb-1 text-blue" href="#">По популярности</a></li>
+                            <li><a class="dropdown-item mb-1 text-blue" href="#">Положительные</a></li>
+                            <li><a class="dropdown-item mb-1 text-blue" href="#">Отрицательные</a></li>
+                            <li><a class="dropdown-item mb-1 text-blue" href="#">По дате</a></li>
+                        </ul>
+                      </div>
+                </div>
+
+                <!-- block 1 -->
+                <div class="card py-4 px-4 mb-4">
+
+                    <div class="d-flex justify-content-between flex-wrap lh-base mb-3">
+
+                        <div class="me-3">
+                            <h4 class="card-title fw-bolder">
+                                <a href="#" class="card-link text-black" style="text-decoration: underline;">Петя Васечкин</a>
+                            </h4>
+                            <p class="card-text text-blue">15.01.2022</p>
+                        </div>
+
+                        <div class="d-flex align-items-center">
+                            <div class="fz-25">
+                                4.0
+                            </div>
+                            <div class="ml-15">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path class="text-grey" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                            </div>
+                        </div>
+                
+                    </div>
+
+                    <div class="lh-base mb-4">
+
+                        <p>
+                            Это текст первого отзыва, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                            <br><br>
+                            В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.
+
+                            <span  class="collapse" id="collapseExample-0">
+                                Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.
+                                <br><br>
+                                Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. Его корни уходят в один фрагмент классической латыни 45 года н.э
+                            
+                            </span>
+
+                        </p>
+
+
+                        <div class="fw-bolder text-blue" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample-0" aria-expanded="false" aria-controls="collapseExample" style="background: transparent;" >Показать полностью...</div>
+
+
+                    </div>
+
+
+                    <!-- Buttons -->
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="w-100 lh-base">
+                            
+                            <div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
+
+                                
+                                <div class="lh-base">
+                                    <button class="me-3 text-blue" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample-1" aria-expanded="false" aria-controls="collapseExample" style="background: transparent;">
+                                        Прокоментировать
+                                    </button>
+            
+                                    <button class="me-3 text-blue" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample-2" aria-expanded="false" aria-controls="collapseExample" style="background: transparent;">
+                                        2 Ответов
+                                    </button>
+                                </div>
+                                
+
+                                <div class="d-flex mt-ic">
+                                    <div class="d-flex align-items-center mw-5r">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
+                                            <path class="text-green" d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+                                            <path class="text-green" d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"></path>
+                                            </svg>
+                        
+                                            <div class="text-green ml-10">
+                                            102
+                                            </div>
+                                    </div>
+                        
+                                    <div class="ml-15 d-flex align-items-center mw-5r">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-emoji-frown" viewBox="0 0 16 16">
+                                            <path class="text-red" d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+                                            <path class="text-red" d="M4.285 12.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 10.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 9.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"></path>
+                                            </svg>
+                        
+                                            <div class="text-red ml-10">
+                                            54
+                                            </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+                            <!-- Resuld button 1 -->
+                            <div class="collapse" id="collapseExample-1">
+                                <div class="card card-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Ваше имя:</label>
+                                            <input type="text" class="form-control mb-2" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                            
+                                            <label for="exampleInputEmail1" class="form-label">Ваш комментарий:</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp">
+                                            <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+
+                                            <button type="button" class="btn btn-orange mt-4">Оставить отзыв</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+
+
+                            <!-- Resuld button 2 -->
+                            <div class="collapse" id="collapseExample-2">
+
+                                <!-- Ответ 1 -->
+                                <div class="card card-body">
+
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="me-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+                                            <path class="text-blue" fill-rule="evenodd" d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5z"/>
+                                            </svg>
+                                        </div>
+
+                                        <div class="w-100">
+                                            <h6 class="card-title fw-bolder">
+                                                <div class="mb-1">Юлия Иванова</div>
+                                            </h6>
+
+                                            <div class="mb-3">
+                                                Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. Его корни уходят в один фрагмент классической латыни 45 года н.э
+                                            </div>
+
+                                            <div class="d-flex justify-content-end">
+                                                <div class="d-flex align-items-center  mw-5r">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
+                                                        <path class="text-green" d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+                                                        <path class="text-green" d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"></path>
+                                                        </svg>
+                                    
+                                                        <div class="text-green ml-10">
+                                                        102
+                                                        </div>
+                                                </div>
+                                    
+                                                <div class="ml-15 d-flex align-items-center mw-5r">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-emoji-frown" viewBox="0 0 16 16">
+                                                        <path class="text-red" d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+                                                        <path class="text-red" d="M4.285 12.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 10.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 9.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"></path>
+                                                        </svg>
+                                    
+                                                        <div class="text-red ml-10">
+                                                        54
+                                                        </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <!-- Ответ 2 -->
+                                <div class="card card-body">
+
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="me-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+                                            <path class="text-blue" fill-rule="evenodd" d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5z"/>
+                                            </svg>
+                                        </div>
+
+                                        <div class="w-100">
+                                            <h6 class="card-title fw-bolder">
+                                                <div class="mb-1">Юлия Иванова</div>
+                                            </h6>
+
+                                            <div class="mb-3">
+                                                Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. Его корни уходят в один фрагмент классической латыни 45 года н.э
+                                            </div>
+
+                                            <div class="d-flex justify-content-end">
+                                                <div class="d-flex align-items-center  mw-5r">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
+                                                        <path class="text-green" d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+                                                        <path class="text-green" d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"></path>
+                                                        </svg>
+                                    
+                                                        <div class="text-green ml-10">
+                                                        102
+                                                        </div>
+                                                </div>
+                                    
+                                                <div class="ml-15 d-flex align-items-center mw-5r">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-emoji-frown" viewBox="0 0 16 16">
+                                                        <path class="text-red" d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+                                                        <path class="text-red" d="M4.285 12.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 10.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 9.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"></path>
+                                                        </svg>
+                                    
+                                                        <div class="text-red ml-10">
+                                                        54
+                                                        </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        
+
+
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+                        
+                    
+
+
+
+
+
+
+
+
+
+                </div>
+
+                <!-- block 2 -->
+                <div class="card py-4 px-4">
+
+                    <div class="d-flex justify-content-between flex-wrap lh-base mb-3">
+
+                        <div class="me-3">
+                            <h4 class="card-title fw-bolder">
+                                <a href="#" class="card-link text-black" style="text-decoration: underline;">Люля Кебавовна</a>
+                            </h4>
+                            <p class="card-text text-blue">20.01.2022</p>
+                        </div>
+
+                        <div class="d-flex align-items-center">
+                            <div class="fz-25">
+                                4.0
+                            </div>
+                            <div class="ml-15">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path class="text-green" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path class="text-grey" d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                            </div>
+                        </div>
+                
+                    </div>
+
+                    <div class="lh-base mb-4">
+
+                        <p>
+                            Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                            <br><br>
+                            В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.
+
+                            <span  class="collapse" id="collapseExample-3">
+                                Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.
+                                <br><br>
+                                Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. Его корни уходят в один фрагмент классической латыни 45 года н.э
+                            
+                            </span>
+
+                        </p>
+
+
+                        <div class="fw-bolder text-blue" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample-3" aria-expanded="false" aria-controls="collapseExample" style="background: transparent;" >Показать полностью...</div>
+
+
+                    </div>
+
+
+                    <!-- Buttons -->
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="w-100 lh-base">
+                            
+                            <div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
+
+                                
+                                <div class="lh-base">
+                                    <button class="me-3 text-blue" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample-4" aria-expanded="false" aria-controls="collapseExample" style="background: transparent;">
+                                        Прокоментировать
+                                    </button>
+            
+                                    <button class="me-3 text-blue" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample-5" aria-expanded="false" aria-controls="collapseExample" style="background: transparent;">
+                                        2 Ответов
+                                    </button>
+                                </div>
+                                
+
+                                <div class="d-flex mt-ic">
+                                    <div class="d-flex align-items-center mw-5r">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
+                                            <path class="text-green" d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+                                            <path class="text-green" d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"></path>
+                                            </svg>
+                        
+                                            <div class="text-green ml-10">
+                                            102
+                                            </div>
+                                    </div>
+                        
+                                    <div class="ml-15 d-flex align-items-center mw-5r">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-emoji-frown" viewBox="0 0 16 16">
+                                            <path class="text-red" d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+                                            <path class="text-red" d="M4.285 12.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 10.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 9.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"></path>
+                                            </svg>
+                        
+                                            <div class="text-red ml-10">
+                                            54
+                                            </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+                            <!-- Resuld button 1 -->
+                            <div class="collapse" id="collapseExample-4">
+                                <div class="card card-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Ваше имя:</label>
+                                            <input type="text" class="form-control mb-2" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                            
+                                            <label for="exampleInputEmail1" class="form-label">Ваш комментарий:</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp">
+                                            <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+
+                                            <button type="button" class="btn btn-orange mt-4">Оставить отзыв</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <!-- Resuld button 2 -->
+                            <div class="collapse" id="collapseExample-5">
+
+                                <!-- Ответ 1 -->
+                                <div class="card card-body">
+
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="me-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+                                            <path class="text-blue" fill-rule="evenodd" d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5z"/>
+                                            </svg>
+                                        </div>
+
+                                        <div class="w-100">
+                                            <h6 class="card-title fw-bolder">
+                                                <div class="mb-1">Юлия Иванова</div>
+                                            </h6>
+
+                                            <div class="mb-3">
+                                                Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. Его корни уходят в один фрагмент классической латыни 45 года н.э
+                                            </div>
+
+                                            <div class="d-flex justify-content-end">
+                                                <div class="d-flex align-items-center mw-5r">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
+                                                        <path class="text-green" d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+                                                        <path class="text-green" d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"></path>
+                                                        </svg>
+                                    
+                                                        <div class="text-green ml-10">
+                                                        102
+                                                        </div>
+                                                </div>
+                                    
+                                                <div class="ml-15 d-flex align-items-center mw-5r">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-emoji-frown" viewBox="0 0 16 16">
+                                                        <path class="text-red" d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+                                                        <path class="text-red" d="M4.285 12.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 10.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 9.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"></path>
+                                                        </svg>
+                                    
+                                                        <div class="text-red ml-10">
+                                                        54
+                                                        </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <!-- Ответ 2 -->
+                                <div class="card card-body">
+
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="me-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+                                            <path class="text-blue" fill-rule="evenodd" d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5z"/>
+                                            </svg>
+                                        </div>
+
+                                        <div class="w-100">
+                                            <h6 class="card-title fw-bolder">
+                                                <div class="mb-1">Юлия Иванова</div>
+                                            </h6>
+
+                                            <div class="mb-3">
+                                                Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. Его корни уходят в один фрагмент классической латыни 45 года н.э
+                                            </div>
+
+                                            <div class="d-flex justify-content-end">
+                                                <div class="d-flex align-items-center mw-5r">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
+                                                        <path class="text-green" d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+                                                        <path class="text-green" d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"></path>
+                                                        </svg>
+                                    
+                                                        <div class="text-green ml-10">
+                                                        102
+                                                        </div>
+                                                </div>
+                                    
+                                                <div class="ml-15 d-flex align-items-center mw-5r">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-emoji-frown" viewBox="0 0 16 16">
+                                                        <path class="text-red" d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+                                                        <path class="text-red" d="M4.285 12.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 10.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 9.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"></path>
+                                                        </svg>
+                                    
+                                                        <div class="text-red ml-10">
+                                                        54
+                                                        </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+                        
+                    
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid footer">
+        <div class="container w-92 py-4">
+            <div class="d-flex justify-content-between flex-wrap lh-lg mb-4 align-items-center">
+                <div class="text-white">© 2021 Le-lif</div>
+                <div class="d-flex flex-wrap">
+                    <a href="#" class="text-white">
+                        <div class="mx-2">Карта сайта</div>
+                    </a>
+                    <a href="#" class="text-white">
+                        <div class="mx-2">Политика конфиденциальности</div>
+                    </a>
+                    <a href="#" class="text-white">
+                        <div class="mx-2">Пользовательское соглашение</div>
+                    </a>
+                    <a href="#" class="text-white">
+                        <div class="mx-2">О нас</div>
+                    </a>
+                </div>
+                <div class="text-white"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+
+
+	<script>
+
+		// Gets links from the header with changes newMenuBlock display
+
+		function OpenMenu() {
+			document.getElementById("newMenuBlock").style.display = "block";
+		}
+
+
+		// Cross closes the menu
+
+		function closeMenu() {
+			document.getElementById("newMenuBlock").style.display = "none";
+		}
+
+
+		function stAct() {
+			document.getElementById("act").style.display = "block";
+			document.getElementById("prog").style.color = "red";
+
+		}
+
+	</script>
+
+
+</body>
+</html>
